@@ -2,122 +2,190 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
+*:focus {
+    outline: 2px dotted #7296ec;
+    outline-offset: 2px;
 }
 
-.site-header-container {
-    background-color: #F6F6F6;
 
-    
-  
-
-}
+ body {
+     margin: 0;
+    padding: 0;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4a4b4c;
+} 
 
 .container {
-    max-width: 1160px;
+    max-width: 1260px;
     width: 100%;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.header-top {
+.site-header {
+}
+
+.site-header-top {
+    background-color: #f6f6f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.site-header-top-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 30px;
-    padding-bottom: 30px;
 }
 
 .site-logo {
-    margin-top: 30px;
+    padding: 9px 6px;
+    background-color: #fff;
+    margin-right: 35px;
+    border-radius: 7px;
+}
 
+.site-logo:hover {
+    opacity: 0.8;
+}
+
+.site-logo:active {
+    opacity: 0.6;
 }
 
 .site-logo-img {
-  
+    display: flex;
 }
 
-.headertop-list {
+.currency {
+    margin-right: auto;
+}
+
+.currency-list {
     display: flex;
     list-style: none;
-    color:#2959CE;
     margin: 0;
     padding: 0;
-    margin-top: 30px;
 }
 
-.headertop-item:not(:last-child) {
+.currency-item:not(:last-child) {
     margin-right: 25px;
-
 }
 
-.header-list {
+.currency-icon {
+    font-weight: 700;
+    color: #2959ce;
+}
+
+.language-toggle {
+    background-color: #dce6ff;
+    padding: 3px;
     display: flex;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 30px; 
-/* 
-    padding: 16px 15px;
-    background-color: #DCE6FF;
-    
-    border-radius: 39px; */ 
+    border-radius: 39px;
+    margin-right: 25px;
 }
 
-.header-item {
-    margin-top: 15px;
-    
-
-}
-
-.header-link {
-    text-decoration: none;  
-}
-
-.maoin-button {
+.language-toggle-item {
+    width: 30px;
+    height: 30px;
+    text-align: center;
     text-decoration: none;
-    margin-left: 32px;
-    padding: 13px 20px;
-    background-color: #7296EC;
-    
-    border-radius: 10px;
-    color: #fff;
-    margin-top: 0;
-    display: inline-block;
+    color: #A6A6A6;
+    line-height: 30px;
+    font-size: 13px;
 }
 
-.sitenav {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    
+.language-toggle-item-active {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
 }
-hr {
-    margin-bottom: 40px;
+
+.button {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 11px 18px;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: background-color 0.5s;
 }
+
+.button:hover{
+    opacity: 0.8;
+    border: 2px solid #7296ec;
+    background-color: #fff;
+    color: #7296ec;
+}
+
+.button:active {
+    background-color: #7296ec;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.primary-button {
+   background-color: #7296ec;
+}
+
+
+        /* NAVBAR */
+
+       
+ .sitenav {
+     border-bottom: 1px solid #d1d1d1;
+     padding-top: 16px;
+     padding-bottom: 16px;
+     margin-bottom: 40px;
+ }
 
 .sitenav-list {
+    margin: 0;
+    padding: 0;
     display: flex;
-    list-style:none ;
-   
+    flex-wrap: wrap;
+    list-style: none;
+ }
 
-}
+  .sitenav-item:not(:last-child) {
+      margin-right: 34px;
+ }
 
-.sitenav-item {
-    margin-right: 32px;
-   
-}
+ .sitenav-item {
+     margin-top: 4px;
+     margin-bottom: 4px;
+ }
 
-.sitenav-link {
-    text-decoration: none;
+ .sitenav-link {
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 21px;
+     color: #7f7f7f;
+     transition: color 0.5s;
+ }
 
-}
+ .sitenav-link:hover {
+     color: #7296ec;
+     opacity: 0.8;
+ }
 
-.sitenav-img {
-   margin-right: auto; 
-    margin-left: auto; 
+ .sitenav-link:active {
+     opacity: 0.6;
+ }
 
-}
+ .site-banner:hover {
+     opacity: 0.8;
+ }
+
+ .site-banner:active {
+     opacity: 0.6;
+ }
+
+
+
+

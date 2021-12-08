@@ -1,90 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namanganliklar</title>
-    <link rel="stylesheet" href="css/narmalize.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-          <!-- HEADER -->
-          <header class="main-header">
-                <div class="site-header-container container">
-                    
-                          <div class="header-top">
-                              <a class="site-logo" href="" >
-                                  <img class="site-logo-img" src="images/Namanganliklar_logo.svg" alt="rasm bor"
-                                  width="264"
-                                  height="28"
-                                  />
-                                </a>
-                                <ul class="headertop-list">
-                                    <li class="headertop-item">
-                                       <b>$</b>10137.2
-                                    </li>
-                                    <li class="headertop-item">
-                                       <b>P</b>138.26
-                                    </li>
-                                </ul>
-                                                <!-- QIDIRUV QISMI -->
-                                <ul class="header-list">
-                                  <li class="header-item">
-                                        <a class="header-link" href="#" >уз</a>
-                                   </li>
-                                    <li class="header-item">
-                                         <a class="header-link" href="#" >ру</a>
-                                    </li>
-                                    <a class="maoin-button" href="#">Войти</a>
-                                 </ul>
-                          </div>
-                </div>
-            
-                  <!-- NAVBAR -->
-                  <div class="container">
-                      <nav class="sitenav">
-                          <ul class="sitenav-list">
-                            <li class="sitenav-item">
-                                  <a class="sitenav-link" href="#" >Главное</a>
-                            </li>
-                            <li class="sitenav-item">
-                                <a class="sitenav-link" href="#" >Интересное</a>
-                            </li>
-                            <li class="sitenav-item">
-                                <a class="sitenav-link" href="#" >Экономика</a>
-                            </li>
-                            <li class="sitenav-item">
-                                <a class="sitenav-link" href="#" >Политика</a>
-                            </li>
-                            <li class="sitenav-item">
-                                <a class="sitenav-link" href="#" >Общество</a>
-                            </li>
-                            <li class="sitenav-item">
-                                <a class="sitenav-link" href="#" >Технологии</a>
-                            </li>
-                            <li class="sitenav-item">
-                                <a class="sitenav-link" href="#" >Спорт</a>
-                            </li>
-                            <li class="sitenav-item">
-                                <a class="sitenav-link" href="#" >Культура</a>
-                            </li>
-                            <li class="sitenav-item">
-                                <a class="sitenav-link" href="#" >Происшествия</a>
-                            </li>
-                            <li class="sitenav-item">
-                                <a class="sitenav-link" href="#" >Наука</a>
-                            </li>
-                          </ul>
-                      </nav>
-                      <hr>
-                      <img class="sitenav-img" src="images/optimize 1.png" alt="rasm hay"
-                      width="1200"
-                      height="128"
-                      srcset="images/optimize 1.png 1px, images/optimize 1.png @2px"
-                      >
-                  </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/narmalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="site-header-top">
+        <div class="site-header-top-container container">
+          <!-- LOGO -->
+          <a class="site-logo" href="#">
+            <img
+              class="site-logo-img"
+              src="images/Namanganliklar_logo.svg"
+              alt="logo svg"
+              width="264"
+              height="28"
+            />
+          </a>
+          <!-- CURRENCY -->
+          <div class="currency">
+            <ul class="currency-list">
+              <li class="currency-item">
+                <b class="currency-icon">$</b>
+                <span class="currency-value"> 10137.2</span>
+              </li>
+              <li class="currency-item">
+                <b class="currency-icon">Р</b>
+                <span class="currency-value"> 138.26</span>
+              </li>
+            </ul>
+          </div>
+          <!-- GLOBAL SEARCH -->
 
-          </header>
-</body>
+          <!-- LANGUAGE TOGGLE -->
+          <div class="language-toggle">
+            <a class="language-toggle-item language-toggle-item-active" href="#"
+              >УЗ</a
+            >
+            <a class="language-toggle-item" href="#">РУ</a>
+          </div>
+          <!-- MAIN BUTTON -->
+          <a class="button primary-button" href="#">Войти</a>
+        </div>
+      </div>
+
+      <!-- NAVBAR -->
+      <div class="container">
+        <nav class="sitenav">
+          <ul class="sitenav-list">
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Главное</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Интересное</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Экономика</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Политика</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Общество</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Технологии</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Спорт</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Культура</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Происшествия</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="#">Наука</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- BANNER -->
+        <div class="site-banner">
+            <a class="site-banner-link" href="https://olcha.uz" target="_blank" >
+                <img class="site-banner-img" src="images/banner 1.png" alt="Index banner"
+                width="1200"
+                height="128"
+                srcset="images/banner 1.png 1x, images/banner@2x 1.png 2x" >
+            </a>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
