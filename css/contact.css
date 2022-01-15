@@ -1,0 +1,404 @@
+html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  *:focus {
+    outline: 2px dotted #7296ec;
+    outline-offset: 2px;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4a4b4c;
+  }
+  
+  .container {
+    max-width: 1260px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .site-header {
+    margin-bottom: 50px;
+  }
+  
+  .site-header-top {
+    background-color: #f6f6f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .site-header-top-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-logo {
+    padding: 9px 6px;
+    background-color: #fff;
+    margin-right: 35px;
+    border-radius: 7px;
+  }
+  
+  .site-logo:hover {
+    opacity: 0.8;
+  }
+  
+  .site-logo:active {
+    opacity: 0.6;
+  }
+  
+  .site-logo-img {
+    display: flex;
+  }
+  
+  .currency {
+    margin-right: auto;
+  }
+  
+  .currency-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .currency-item:not(:last-child) {
+    margin-right: 25px;
+  }
+  
+  .currency-icon {
+    font-weight: 700;
+    color: #2959ce;
+  }
+  
+  .global-search {
+  }
+  
+  .global-input {
+    margin-right: 28px;
+    border-radius: 60px;
+    padding: 15px 192px 13px 41px;
+    background-color: #fff;
+    border-color: transparent;
+  }
+  
+  .language-toggle {
+    background-color: #dce6ff;
+    padding: 3px;
+    display: flex;
+    border-radius: 39px;
+    margin-right: 25px;
+  }
+  
+  .language-toggle-item {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #a6a6a6;
+    line-height: 30px;
+    font-size: 13px;
+  }
+  
+  .language-toggle-item-active {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+  }
+  
+  .button {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 11px 18px;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: background-color 0.5s;
+  }
+  
+  .primary-button:hover {
+    opacity: 0.8;
+    border: 2px solid #7296ec;
+    background-color: #fff;
+    color: #7296ec;
+  }
+  
+  .primary-button:active {
+    background-color: #7296ec;
+    opacity: 0.6;
+    color: #fff;
+  }
+  
+  .primary-button {
+    background-color: #7296ec;
+  }
+  
+  /* NAVBAR */
+  
+  .sitenav {
+    border-bottom: 1px solid #d1d1d1;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .sitenav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  .sitenav-item:not(:last-child) {
+    margin-right: 34px;
+  }
+  
+  .sitenav-item {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .sitenav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7f7f7f;
+    transition: color 0.5s;
+  }
+  
+  .sitenav-link:hover {
+    color: #7296ec;
+    opacity: 0.8;
+  }
+  
+  .sitenav-link:active {
+    opacity: 0.6;
+  }
+  
+  .site-banner:hover {
+    opacity: 0.8;
+  }
+  
+  .site-banner:active {
+    opacity: 0.6;
+  }
+
+
+  /* MAIN  */
+
+.news-kards {
+  float: left;
+  margin-top: 60px;
+}
+
+  .new-card {
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    width: 797px;
+    background-color: #f6f6f6;
+  }
+  
+  .card {
+    margin-left: 15px;
+  }
+
+  .card-img {
+  
+  }
+  
+  .main-span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .span-img {
+    margin-right: 10px;
+  }
+  
+  .card-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+  }
+  
+  .card-info {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4a4b4c;
+  }
+  
+  .card-text {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #5e5f61;
+  }
+
+  .section-glavnoy {
+    padding: 25px 20px;
+    width: 393px;
+    background-color: #f6f6f6;
+    margin-left: 10px;
+    border-radius: 15px;
+  }
+  
+  hr {
+    width: 359px;
+    border: 1px solid #d2d2d2;
+  }
+  
+  .glovnoy-img {
+    width: 393px;
+    height: 338px;
+  }
+  
+  .kard-heading {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    width: 796px;
+    padding: 17px 300px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
+
+  .section-glavnoy {
+    float: left;
+    margin-top: 60px;
+  }
+  .section-header {
+  }
+  .card-header {
+  }
+  .card-text {
+  }
+  .glovnoy-img {
+    margin-top: 10px;
+  }
+  
+
+  /* FOOTER  */
+
+.site-footer {
+    background-color: #7297ef;
+    padding-left: 180px;
+    padding-right: 296px;
+   
+  }
+  
+  .footer-top-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-top-text {
+    width: 229px;
+  }
+  
+  .footer-logo-img {
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-top-text {
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+  }
+  
+  .main-footer {
+    display: flex;
+  }
+  
+  .footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-item:not(:last-child) {
+    margin-bottom: 20px;
+  
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .footer-hr {
+    width: 100%;
+   background-color:#CECECE;
+   margin-top: 70px;
+   margin-bottom: 20px;
+  }
+  
+  .list-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-footer {
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 1px;
+  }
+  
+  .item-footer {
+    list-style: none;
+  }
+  
+  .link-footer {
+    margin-left: 30px;
+    margin-left: 21px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 31px;
+  }
+  
